@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1350px;
+
+}
+
+.nav_section{
+    width: 1350px;
+    height: 90px;
+    padding: 0 96px;
+    line-height: 24px;
+    display: flex;
+    text-align: left;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    width: 927px;
+    /* height: 90px; */
+}
+
+.logo {
+
+    padding: 18px 50px 18px 0;
+}
+
+.logo img{
+    width: 128px;
+    height: 53px;
+    text-align: left;
+}
+
+.nav_links {
+    /* display: flex; */
+    
+}
+
+.row-display ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    
+}
+
+.nav_links ul{
+
+}
+
+.nav_links ul li{
+    /* margin-right: auto; */
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.cta_buttons button{
+    /* display: flex; */
+    /* list-style: none; */
+    padding: 20px;
+
+}
+
+.hero_section {
+    background: url(/images/Hero-NG_Landing.webp);
+    background-repeat: no-repeat;
+    /* justify-content: center; */
+    /* display: flex; */
+    width: 100%;
+    /* width: 1350px; */
+    height: 636px;
+    color: white;
+    position: relative;
+}
+
+.hero_text {
+    position: absolute;
+    top: 168px;
+    left: 112px;
+}
+
+.hero_text h1 {
+    width: 800px;
+    height: 60px;
+    color: #ffff00;
+    margin: 16px 0 1.6px;
+    font-size: 54.4px;
+    font-weight: 300;
+    line-height: 59.84px;
+}
+
+.hero_text p {
+    width: 800px;
+    height: 137px;
+    color: #ffffff;
+    margin: 16px 0 1.6px;
+    font-size: 30.4px;
+    font-weight: 300;
+    line-height: 45.6px;
+    
+}
+/* .hero_text h1 {
+    width: 800px;
+    height: 60px;
+    color: #ffff00;
+    margin: 16px 0 1.6px;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 37.4px;
+}
+
+.hero_text p {
+    width: 800px;
+    height: 137px;
+    color: #ffffff;
+    margin: 16px 0 1.6px;
+    font-size: 30.4px;
+    font-weight: 300;
+    line-height: 45.6px; */
